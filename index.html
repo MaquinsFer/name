@@ -1,29 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Style Store</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+  <header class="header">
+    <h1>Style Store</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Produtos</a>
+      <a href="#about">Sobre</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header>
 
-        <h1>Hello World</h1>
-        <p>Que bom ver voce por aqui, <span id="nome-usuario" >Maumau</span></p>
-             
-            <Section>
-                <h2>HTML</h2>
-                <p><spam class="texto-inglês">Hyper text Markup Language </spam> (em portugues, linguagem de Marcação de Hypertexto ) estrutura sua pagina web.</p>
-                    <h2>CSS</h2>
-                <p>Cascading Style Sheets  ( em portugues, lingaguem de Marcação de Hypertexto), cria estilos padronizados na sia pagina web.</p>
-                    <img src="Imagem.png" alt="">
-                </section>
+  <main>
+    <section id="home" class="hero">
+      <h2>Bem-vindo à nossa loja!</h2>
+      <p>Encontre roupas incríveis para qualquer ocasião.</p>
+    </section>
 
-        </header>
-        <footer>
-            <p>uma pagina desenvolvida por MauMau</p>
-        </footer>
-        <script src="main.js"></script>
+    <section id="products" class="products">
+      <h2>Nossos Produtos</h2>
+      <div class="product-list">
+        <!-- Produtos renderizados aqui -->
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Sobre Nós</h2>
+      <p>Somos uma loja dedicada a oferecer as melhores roupas para você.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contato</h2>
+      <p>Email: contato@lojadroupas.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Loja de Roupas. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
