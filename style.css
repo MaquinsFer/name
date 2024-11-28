@@ -1,24 +1,48 @@
-h2{
-    color:orange;
-}
 body {
-    background: color #305050;
-    color: white
-    font-family: Roboto;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
     text-align: center;
-
-}
-h1{
-    border-bottom: 1px slid grey
-}
-
-header{
-    font-weight: bold;
-}
-
-#nome-usuário{
-    font-style: bold;
-}
-#texto-inglês{
-    font-style:italic;
-}
+  }
+  
+  .header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .products, .about, .contact {
+    padding: 2rem;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
